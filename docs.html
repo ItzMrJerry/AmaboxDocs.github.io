@@ -133,8 +133,6 @@
             </li>
           </ul>
         </li>
-        <li class="font-medium"><a href="#link5">Colors</a></li>
-        <li class="font-medium"><a href="#link6">Issues</a></li>
       </ul>
     </nav>
     <!-- Side Menu ends here -->
@@ -145,8 +143,9 @@
         <div class="h-full mt-10">
           <p class="font-normal text-2xl">Getting Started</p>
           <p>Start by downloading Unity Hub</p>
-          Download page: 
-          <a class="underline break-words" href="https://unity.com/download#how-get-started target="_blank">Unity hub</a>
+          
+          <a href="https://unity.com/download#how-get-started" class="tailwind-button"><span>Unity Hub</span></a>
+
           <p class="text-sm pt-2 pb-4">
             <img src="public\Images\InstallEditor.png" alt="">
             After downloading unity hub go to installs and Click on "Install Editor" and install the 2022 LTS(Long Term Support) version.
@@ -192,8 +191,9 @@
     <section id="link3">
         <div class="h-full mt-5">
             <p class="font-normal text-2xl">RealVirtual Documentation</p>
-            RealVirtual Docs: 
-            <a class="underline break-words" href="https://doc.realvirtual.io" target="_blank">doc.realvirtual.io</a>
+            <a href="https://doc.realvirtual.io" class="tailwind-button"><span>Real Virtual Documentation</span></a>
+            <a class="underline break-words" href="https://doc.realvirtual.io" target="_blank"></a> 
+
             <p class="text-sm pt-5 pb-4">Small Description</p>
         </div>
     </section>
@@ -203,7 +203,7 @@
     <section id="link4">
         <div class="h-full mt-5">
             <p class="font-normal text-2xl">Amabox Documentation</p>
-            <p class="font-normal text-xl">Custom Unity Windows</p>
+            <p class="font-normal text-xl">Custom Amabox Windows</p>
         </div>
     
         <!-- Tools start -->
@@ -249,23 +249,47 @@
     
                     <div class="mt-3">
                         <p class="font-normal text-lg">Center Pivot To Mesh</p>
+                        <p class="text-sm pt-2 pb-4">
+                          <img src="public\Images\CenterPivotWindow.png" alt="">
+                        </p>
                         <p class="text-sm pt-2 pb-4">Description of the Center Pivot To Mesh tool.</p>
+                        Select an object with a Meshrenderer component. <br>
+                        It checks if the pivot point is centered with the mesh center.
                     </div>
                     <div class="mt-3">
                         <p class="font-normal text-lg">Debug Mesh Info</p>
+                        <p class="text-sm pt-2 pb-4">
+                          <img src="public\Images\DebugMeshWindow.png" alt="">
+                        </p>
                         <p class="text-sm pt-2 pb-4">Description of the Debug Mesh Info tool. Shortcut: Alt+D</p>
+                        Select an object. <br>
+                        It checks al child objects if it has a MeshFilter and debugs the combined triangle count and other usefull information.
                     </div>
                     <div class="mt-3">
                         <p class="font-normal text-lg">Material Setter</p>
+                        <p class="text-sm pt-2 pb-4">
+                          <img src="public\Images\MaterialSetterWindow.png" alt="">
+                        </p>
                         <p class="text-sm pt-2 pb-4">Description of the Material Setter tool. Shortcut: Alt+S</p>
+                        A tool that is made to easily set the color of a object. <br> it has multiple material types to choose from and can add new material types and materials in the resource folder
                     </div>
                     <div class="mt-3">
                         <p class="font-normal text-lg">Part Connector</p>
+                        <p class="text-sm pt-2 pb-4">
+                          <img src="public\Images\LinkParts Window.png" alt="">
+                        </p>
                         <p class="text-sm pt-2 pb-4">Description of the Part Connector tool. Shortcut: Alt+L</p>
+                        A tool To easily align Amabox structures with eachother. <br>
+                        select a part link for part 1 and for part 2. then Click on "Link Parts" it moves part 1 to part 2.
                     </div>
                     <div class="mt-3">
                         <p class="font-normal text-lg">SubMesh Extractor</p>
+                        <p class="text-sm pt-2 pb-4">
+                          <img src="public\Images\SubMeshExtractorWindow.png" alt="">
+                        </p>
                         <p class="text-sm pt-2 pb-4">Description of the SubMesh Extractor tool.</p>
+                        Some Meshes have submeshes that can not be moved seperatly they are connected to eachother. <br>
+                        this tool breaks those connections and makes them seperate meshes.
                     </div>
                 </section>
                 <!-- Tools List ends -->
